@@ -1,0 +1,11 @@
+execute these commands one by one
+1)docker-compose -f docker-compose.yaml down
+Description: This command stops and removes all the containers, networks, and volumes defined in the docker-compose.yam. This is useful when you want to completely reset your Docker environment as defined by the docker-compose.yaml file, or to clean up resources to free up system space.
+
+2)docker-compose -f docker-compose.yaml build
+Description: This command builds Docker images for the services defined in the docker-compose.yaml file. It uses the instructions in the respective Dockerfile for each service to create the images.
+
+3)docker-compose -f docker-compose.yaml up
+Description: This command creates and starts the containers for the services defined in the docker-compose.yaml file. It also builds the images if they don't already exist and sets up any networks or volumes specified in the file.
+
+After the 3rd command execution you will get an URL, past in the Browser and see the output.
